@@ -245,7 +245,7 @@ while start:
             x, y = hand['lmList'][8]
             if rectBalloon.collidepoint(x, y):
                 if imgBalloon == imgBalloonBonus:
-                    score += 500  # Add 10 seconds if bonus balloon is popped
+                    score += 500 
                 resetBalloon()
                 resetBalloon()
                 score += 10
