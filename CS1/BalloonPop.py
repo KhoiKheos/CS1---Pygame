@@ -79,8 +79,8 @@ def size_change():
     global imgBalloonDarkBlue
     global imgBalloonDarkGreen
     size_reduction = level * 5  # Example: reduce size by 5 pixels per level
-    pixel_width_new = max(100, 150 - size_reduction)  # Ensure a minimum size
-    pixel_height_new = max(150, 200 - size_reduction)
+    pixel_width_new = max(190, 240 - size_reduction)  # Ensure a minimum size
+    pixel_height_new = max(100, 150 - size_reduction)
 
     imgBalloonRed = pygame.transform.scale(pygame.image.load('../Resources/redballoon.jpg'),
                                            (pixel_width_new, pixel_height_new))
