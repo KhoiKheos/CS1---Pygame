@@ -121,7 +121,7 @@ def main_menu():
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     return  # Exit menu
 
-        SCREEN.blit(text, (320, 150))
+        SCREEN.blit(text, (400, 150))
         SCREEN.blit(start_btn, button_rect)
 
         for event in pygame.event.get():
@@ -153,7 +153,7 @@ def end_game_screen(score,a):
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     return True  # Signal to restart the game
 
-        SCREEN.blit(text_score, (450, 350))
+        SCREEN.blit(text_score, (465, 350))
         SCREEN.blit(restart_btn, button_rect)
 
         for event in pygame.event.get():
