@@ -99,7 +99,7 @@ def size_change():
     imgBalloonDarkBlue = pygame.transform.scale(pygame.image.load('../Resources/darkblueballoon.jpg'),
                                                  (pixel_width_new, pixel_height_new))
 def should_spawn_bonus_balloon():
-    return random.randint(1, 100) <= 3  # 5% chance to spawn bonus balloon
+    return random.randint(1, 100) <= 3  # 3% chance to spawn bonus balloon
 
 def main_menu():
     menu = True
